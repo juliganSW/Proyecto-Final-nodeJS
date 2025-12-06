@@ -25,7 +25,7 @@ JWT_SECRET= tu_password_secreto
 ## Autenticación con JWT
 La ruta para crear un producto individual requiere de un token
 **Generar token**
-GET /products/token
+POST /products/token
 
 **Respuesta**: 
 {
@@ -81,7 +81,7 @@ POST /products/crear_productos
     "nombre": "Producto 2",
     "precio": 800,
     "stock": 1000,
-    "descripcion: "descripción opcional",
+    "descripcion": "descripción opcional",
     "categoria": "Categoria 2"
   }
 ]
